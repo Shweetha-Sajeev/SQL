@@ -7,4 +7,4 @@ Return the result table in any order.
 SELECT PRODUCT_ID FROM PRODUCTS
 WHERE LOW_FATS = "Y" AND RECYCLABLE = "Y";
 
-https://leetcode.com/problems/recyclable-and-low-fat-products/description/?envType=study-plan-v2&envId=top-sql-50 
+
