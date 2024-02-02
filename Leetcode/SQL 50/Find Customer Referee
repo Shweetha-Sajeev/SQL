@@ -1,0 +1,8 @@
+Find the names of the customer that are not referred by the customer with id = 2.
+
+Return the result table in any order.
+
+
+# Write your MySQL query statement below
+SELECT NAME FROM CUSTOMER
+WHERE COALESCE(REFEREE_ID,0) <> 2;
